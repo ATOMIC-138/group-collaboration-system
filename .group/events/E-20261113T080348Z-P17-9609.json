@@ -1,0 +1,20 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T080348Z-P17-9609",
+  "event_type": "change_published",
+  "group_id": "G-12",
+  "person_id": "P17",
+  "created_at": "2026-11-13T08:03:48Z",
+  "related_events": [],
+  "change_id": "C-17-2",
+  "branch": "people/P17/parser",
+  "commit": "8713dd7",
+  "summary": "Test live publish to GitHub",
+  "files_changed": [],
+  "interface_changes": [],
+  "tests_run": [
+    "python -m unittest discover -s tests -v"
+  ],
+  "known_issues": [],
+  "proposed_for_integration": true
+}
