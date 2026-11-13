@@ -1,0 +1,18 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070052Z-P31-0fc7",
+  "event_type": "review",
+  "group_id": "G-12",
+  "person_id": "P31",
+  "created_at": "2026-11-13T07:00:52Z",
+  "related_events": [
+    "E-20261113T070050Z-P17-522c"
+  ],
+  "change_id": "C-17",
+  "verdict": "accept",
+  "summary": "Verified end_column tracking in BlockNode and Parser.",
+  "issues": [],
+  "tests_run": [
+    "python -m unittest discover -s tests -v"
+  ]
+}

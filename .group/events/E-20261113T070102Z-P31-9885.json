@@ -1,0 +1,22 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070102Z-P31-9885",
+  "event_type": "change_published",
+  "group_id": "G-12",
+  "person_id": "P31",
+  "created_at": "2026-11-13T07:01:02Z",
+  "related_events": [],
+  "change_id": "C-31",
+  "branch": "people/P31/tests",
+  "commit": "a40e33d",
+  "summary": "Add integration test verifying combined C-17 end_column and C-22 style_class.",
+  "files_changed": [
+    "tests/test_renderer.py"
+  ],
+  "interface_changes": [],
+  "tests_run": [
+    "python -m unittest discover -s tests -v"
+  ],
+  "known_issues": [],
+  "proposed_for_integration": true
+}

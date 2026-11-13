@@ -1,0 +1,16 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070109Z-P17-a03d",
+  "event_type": "final_result",
+  "group_id": "G-12",
+  "person_id": "P17",
+  "created_at": "2026-11-13T07:01:09Z",
+  "related_events": [],
+  "canonical_commit": "62c572e90c9e3f9f622833d7feda63625592f404",
+  "final_report_path": ".group/final/final_report.md",
+  "test_evidence": [
+    "E-20261113T070103Z-P31-383f"
+  ],
+  "known_limitations": [],
+  "initiated_by": "P17"
+}

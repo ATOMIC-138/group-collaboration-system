@@ -1,0 +1,24 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070050Z-P17-522c",
+  "event_type": "change_published",
+  "group_id": "G-12",
+  "person_id": "P17",
+  "created_at": "2026-11-13T07:00:50Z",
+  "related_events": [],
+  "change_id": "C-17",
+  "branch": "people/P17/parser",
+  "commit": "8c695f7",
+  "summary": "Track end_column source positions on BlockNode in Parser.",
+  "files_changed": [
+    "src/model.py"
+  ],
+  "interface_changes": [
+    "BlockNode now includes end_column: int populated by Parser.parse."
+  ],
+  "tests_run": [
+    "python -m unittest discover -s tests -v"
+  ],
+  "known_issues": [],
+  "proposed_for_integration": true
+}

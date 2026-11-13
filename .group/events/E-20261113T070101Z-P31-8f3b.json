@@ -1,0 +1,23 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070101Z-P31-8f3b",
+  "event_type": "integration_result",
+  "group_id": "G-12",
+  "person_id": "P31",
+  "created_at": "2026-11-13T07:01:01Z",
+  "related_events": [
+    "E-20261113T070057Z-P22-92b1"
+  ],
+  "change_id": "C-22",
+  "target_branch": "people/P31/tests",
+  "result": "success",
+  "merge_commit": "6bbebf7",
+  "conflicts": [],
+  "conflict_resolution_summary": "",
+  "verification": {
+    "build": "pass",
+    "tests": "pass",
+    "semantic_review": "pass"
+  },
+  "summary": "Integrated C-22 into people/P31/tests."
+}

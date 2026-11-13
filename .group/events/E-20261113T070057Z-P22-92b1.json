@@ -1,0 +1,22 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070057Z-P22-92b1",
+  "event_type": "change_published",
+  "group_id": "G-12",
+  "person_id": "P22",
+  "created_at": "2026-11-13T07:00:57Z",
+  "related_events": [],
+  "change_id": "C-22",
+  "branch": "people/P22/renderer",
+  "commit": "61b138a",
+  "summary": "Add style_class rendering support integrated with C-17 BlockNode.end_column.",
+  "files_changed": [],
+  "interface_changes": [
+    "BlockNode includes style_class: str = 'default' rendered as HTML class attribute."
+  ],
+  "tests_run": [
+    "python -m unittest discover -s tests -v"
+  ],
+  "known_issues": [],
+  "proposed_for_integration": true
+}

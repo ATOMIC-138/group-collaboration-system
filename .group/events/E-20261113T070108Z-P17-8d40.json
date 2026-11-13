@@ -1,0 +1,15 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070108Z-P17-8d40",
+  "event_type": "final_candidate",
+  "group_id": "G-12",
+  "person_id": "P17",
+  "created_at": "2026-11-13T07:01:08Z",
+  "related_events": [],
+  "canonical_commit": "78a09269e2429dca89655fd04f3c0a615e26a7a0",
+  "candidate_report_path": ".group/final/candidate.md",
+  "tests_considered": [
+    "E-20261113T070103Z-P31-383f"
+  ],
+  "known_issues": []
+}

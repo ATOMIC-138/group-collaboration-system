@@ -1,0 +1,23 @@
+{
+  "protocol_version": "0.1",
+  "event_id": "E-20261113T070054Z-P31-a07f",
+  "event_type": "integration_result",
+  "group_id": "G-12",
+  "person_id": "P31",
+  "created_at": "2026-11-13T07:00:54Z",
+  "related_events": [
+    "E-20261113T070050Z-P17-522c"
+  ],
+  "change_id": "C-17",
+  "target_branch": "people/P31/tests",
+  "result": "success",
+  "merge_commit": "d7a9896",
+  "conflicts": [],
+  "conflict_resolution_summary": "",
+  "verification": {
+    "build": "pass",
+    "tests": "pass",
+    "semantic_review": "pass"
+  },
+  "summary": "Cleanly integrated C-17 into people/P31/tests and verified build, tests, and semantics."
+}
